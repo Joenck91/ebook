@@ -1,0 +1,440 @@
+@font-face {
+    font-family:'code';
+    src: url('/font/VCRosdNEUE.ttf') format('truetype');
+    font-weight: 400;
+    font-style: regular;
+}
+@font-face {
+    font-family: 'sourcepro';
+    src: url('/font/SourceSansPro-Regular.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'sourcebold';
+    src: url('/font/SourceSansPro-Bold.ttf') format('truetype');
+    font-style: normal;
+    font-weight: normal;
+}
+@font-face {
+    font-family: 'ebook';
+    src: url('/font/Inconsolata_ExtraCondensed-SemiBold.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'icones';
+    src: url('font/Social\ Media\ Circled.otf') format('opentype');
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    min-height: 100%;
+    background-image: url('/img/background.png');
+}
+.primeira{
+    /*background-image: url('/img/background.png');*/
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+    color: aliceblue;
+    text-align: center;
+    background-size:auto;
+    background-position:center;
+    padding-bottom: 60px;
+}
+
+.logo{
+    width: 300px;
+    margin-top: -50px;
+    margin-bottom: -20px;
+}
+.boxhead{
+    display:block;
+    margin-bottom: 0px;
+
+
+}
+.prehead{
+    font-size: 50px;
+    margin-bottom: -15px;
+    font-family: 'sourcepro';
+    font-weight: bold;
+    letter-spacing: 5px;
+   
+}
+h1{
+    font-family: ebook;
+    font-size: 150px;
+    
+    margin-bottom: 0.50em;   
+}
+.subhead{
+    font-size: 50px;
+    font-style: bold;
+    font-family: 'sourcepro';
+    margin-bottom: 1.5em;
+    letter-spacing: 0.05em;
+    line-height: 1.30EM;
+    padding:0 50px 0 50px;
+    
+}
+.passo{
+    color: red;
+}
+.deve{
+    color: red;
+    font-size: bold;
+}
+.realmente{
+    font-family:'sourcebold';
+    color: #0cd6db;
+    text-shadow: 0 2px 10px rgba(12, 214, 219, 0.44), 0 0 4px #0cd6db;
+
+}
+.forma{
+    color: aqua;
+}
+.capa{
+    align-items: flex-start;
+    width: 450px;
+    margin-bottom: 20px;
+    display: none;
+}
+.campopreco{
+    padding: 25px 25px 75px 25px;
+    
+}
+.boxpreco{
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+}
+.apenas{
+    font-size: 36px;
+    margin-right: auto;
+    margin-bottom: -13px;
+}
+.OUEM{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+.preco{
+    font-size: 190px;
+    font-family: ebook;
+    filter: hue-rotate(323deg);
+    color: #0cd6db;
+    text-shadow: 0 0 12px rgba(12, 214, 219, 0.44), 0 0 4px #0cd6db;
+}
+.parcelas{
+    letter-spacing: 2px;
+    color:red;
+    font-size: 30px;
+    font-family: 'sourcepro';
+}
+.campocta{
+    padding: 40px 100px;
+    display: inline-flex;
+    background-color: #40ff60;
+    border-radius: 40px;
+    color: #171a4a;
+    border-style:groove;
+    border-bottom-color: #40ff60;
+    border-left-color: #40ff60;
+    border-right-color:#40ff60;
+    border-top-color: #40ff60;
+
+  
+
+}
+.botao{
+    font-size: 50px; 
+    
+    letter-spacing: 10px;
+    text-align: center;
+}
+.botao:hover{
+    font-size: 60px;
+}
+.secao2{
+    
+    font-size: 60px;
+    font-family: 'sourcepro';
+    text-align: center;
+    background-color: #e9e9e9;
+}
+.secao2{
+    padding: 42px;
+}
+.poslivro{
+    padding-bottom: 30px;
+}
+.saldo{
+    border-style: groove; 
+    border-width: 10px;
+    border-color: rgb(130, 238, 148);
+    width: 95%;
+  
+}
+.inf{
+    padding-bottom: 60px;
+}
+.neste{
+    padding: 30px;
+}
+.realmente2{
+    color: red;
+}
+.ganhar{
+    filter: hue-rotate(323deg);
+color: #0cd6db;
+text-shadow: 0 0 12px rgba(12, 214, 219, 0.44), 0 0 4px #0cd6db;
+}
+.secao3{
+    background-image: url(/img/background.png);
+    text-align: center;
+    padding: 50px 0;
+}
+.outracta{
+    padding-top: 10px;
+    padding-left: 60px;
+    padding-right: 60px;
+    padding-bottom: 90px;
+    font-family: 'sourcebold';
+    text-align: center;
+    font-size: 60px;
+    color: aliceblue;
+}
+.cta2{
+    
+    background-color: #40ff60;
+    display: inline;
+    font-size: 50px;
+    padding: 30px 80px;
+    
+    border-style: groove;
+    border-radius: 60px;
+    margin-bottom: 600px;
+    
+}
+.botao2{
+    color: #171a4a;
+}
+.botao2:hover{
+    font-size: 70px;
+}
+.rodape{
+    color: aliceblue;
+    font-size: 20px;
+    padding-top: 90px;
+}
+/*tablets*/
+@media screen and (min-device-width:780px) and (max-width:992px) {
+
+    .principal{
+            
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .logo{
+        width: 280px;
+        margin-left: 80px;
+
+    }
+    .prehead{
+        font-size: 34px;
+        margin-bottom: -5px;
+    }
+    h1{ 
+        color: #18ecf0;
+        font-family: 'code';
+        font-size: 100px;
+        
+        letter-spacing: 5px;
+        margin-bottom: 60px;
+    }
+    .subhead{
+        font-size: 54px;
+        font-family: 'sourcebold';
+        line-height: 55px;
+        margin-bottom: 40px;
+    }
+    .passo{
+        color:red
+    }
+    .deve{
+        color: red;
+    }
+    .realmente{
+        color:aqua;
+        font-family: 'sourcebold';
+        text-shadow: NONE;
+    }
+    .de{color: aqua;}
+
+    .capa{
+    width: 60px;
+    display: none;
+    }
+    .campopreco{
+       margin-left: auto;
+       margin-right: auto;
+    }
+    .boxpreco{
+        display: flex;
+        flex-direction: column;
+        justify-content: first baseline;
+    }
+    .apenas{
+        font-size: 32px;
+        font-family: 'sourcebold';
+        margin-right: auto;
+        margin-bottom: -15px;
+        margin-left: 26px;
+    }
+    .parcelas{
+        font-size: 26px;
+    }
+    .campocta{
+        margin-left: auto;
+        margin-right: auto;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        padding: 30px 60px;
+    }
+    .botao{
+        font-size: 36px;
+    }
+    .poslivro{
+        font-size: 42px;
+    }
+    .saldo{
+       width: 90%;
+    }
+    .inf{
+        font-size: 42px;
+        padding: 40px 0;
+    }
+    .capa2{
+        width: 550px;
+        margin-left: -100px;
+    }
+    .neste{
+        font-size: 56px;
+    }
+    .outracta{
+        font-size: 56px;
+    }
+
+}
+/*tablets horizontal*/
+@media screen and (min-device-width:992px){
+    .prehead{
+        margin: 0;
+        font-size: 36px;
+    }
+    h1{
+        font-size: 100px;
+        font-family: 'sourcebold';
+        letter-spacing: 2px;
+    }
+    .subhead{
+        font-size: 46px;
+        margin-bottom: 60px;
+    }
+    .preco{
+        font-size: 180px;
+    }
+    .botao{
+        font-size: 66px;
+        font-family: 'ebook';
+        font-style: bold;
+    }
+    .campocta{
+        padding: 20px 60px;
+    }
+    .secao2{
+        font-size: 46px;
+
+    }
+    .outracta{
+        font-size: 48px;
+    }
+}
+/*monitores*/
+@media screen and (min-device-width:1200px){
+    *{
+        margin-left: auto;
+        margin-right: auto;
+    }
+    body{
+        font-size: 46px;
+    }
+    .primeira{
+       max-width:850px;
+    
+    }
+    .logo{
+        width: 150px;
+        margin-top: -20px;
+    }
+    .prehead{
+        font-size: 26px;
+    }
+    h1{
+        font-size: 76px;
+        font-family: 'code';
+        letter-spacing: 6px;
+    }
+    .subhead{
+       font-size: 30px;
+       font-family: sourcebold;
+    }
+    .campopreco{
+        padding-bottom: 50px;
+    }
+    .apenas{
+      margin-left: 0px;
+    }
+    .preco{
+        font-size: 150px;
+    }
+    .parcelas{
+        font-size: 16px;
+        margin-right: 0;
+    }
+    .botao{
+        font-size: 36px;
+    }
+    .poslivro{
+        max-width: 850px;
+        font-size: 30px;
+    }
+    .saldo{
+        max-width: 850px;
+    }
+    .inf{
+        max-width: 850px;
+        font-size: 30px;
+    }
+    .capa2{
+        max-width: 850px;
+    }
+    .neste{
+        max-width: 850px;
+        font-size: 32px;
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .secao3{
+        max-width: 850px;
+        font-size: 30px;
+    }
+    .outracta{
+        font-size: 42px;
+        padding: 0 0 90px 0;
+    }
+
+}
