@@ -141,6 +141,7 @@ h1{
     font-size: 50px; 
     letter-spacing: 10px;
     text-align: center;
+    text-decoration: none;
 }
 .botao:hover{
     font-size: 60px;
