@@ -204,6 +204,8 @@ h1{
 }
 .botao2{
     color: #171a4a;
+    text-decoration: none;
+    
 }
 .botao2:hover{
     font-size: 70px;
