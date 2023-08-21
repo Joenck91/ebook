@@ -215,6 +215,23 @@ h1{
     font-size: 20px;
     padding-top: 90px;
 }
+.boxwpp{
+    position: fixed;
+    color: #25d366;
+    font-family: 'ebook';
+    width: 250px;
+    height: 60px;
+    bottom: 40px;
+    right: 20px;
+    text-align: center;
+    font-size: 26px;
+}
+.boxwpp>a{
+    font-family: 'icones';
+    font-size: 66px;
+    text-decoration: none;
+    color: #25d366;
+}
 /*tablets*/
 @media screen and (min-device-width:780px) and (max-width:992px) {
 
@@ -359,20 +376,21 @@ h1{
        max-width:850px;
     }
     .logo{
-        width: 150px;
+        width: 130px;
         margin-top: -20px;
     }
     .prehead{
         font-size: 26px;
     }
     h1{
-        font-size: 76px;
+        font-size: 68px;
         font-family: 'code';
         letter-spacing: 6px;
     }
     .subhead{
-       font-size: 30px;
+       font-size: 26px;
        font-family: sourcebold;
+       margin-bottom: 26px;
     }
     .campopreco{
         padding-bottom: 50px;
