@@ -394,21 +394,17 @@ h1{
     .campopreco{
         padding-bottom: 50px;
     }
-
-
-
     .boxpreco{
        
        position: relative;
        display: inline-flex;
        align-items: left;
-
     }
     .apenas{
       font-size: 36px;
     }
     .preco{
-        font-size: 150px;
+        font-size: 130px;
     }
     .parcelas{
         font-size: 16px;
