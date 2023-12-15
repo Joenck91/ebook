@@ -113,16 +113,16 @@ h1{
     align-items: flex-end;
 }
 .preco{
-    font-size: 190px;
+    font-size: 42px;
     font-family: ebook;
     filter: hue-rotate(323deg);
-    color: #0cd6db;
+    color: red;
     text-shadow: 0 0 12px rgba(12, 214, 219, 0.44), 0 0 4px #0cd6db;
 }
 .parcelas{
     letter-spacing: 2px;
-    color:red;
-    font-size: 30px;
+    color:#0cd6db;
+    font-size: 62px;
     font-family: 'sourcepro';
 }
 .campocta{
