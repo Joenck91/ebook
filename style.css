@@ -241,8 +241,7 @@ h1{
         margin-right: auto;
     }
     .logo{
-        width: 280px;
-        margin-left: 80px;
+        width: 320px;
     }
     .prehead{
         font-size: 34px;
@@ -395,8 +394,18 @@ h1{
     .campopreco{
         padding-bottom: 50px;
     }
+
+
+
+    .boxpreco{
+       
+       position: relative;
+       display: inline-flex;
+       align-items: left;
+
+    }
     .apenas{
-      margin-left: 0px;
+      font-size: 36px;
     }
     .preco{
         font-size: 150px;
